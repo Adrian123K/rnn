@@ -3,7 +3,7 @@ import sys
 sys.path.append('..')  # 부모 디렉터리의 파일을 가져올 수 있도록 설정
 from common.trainer import Trainer
 from common.optimizer import Adam
-from simple_cbow import SimpleCBOW
+from ch03.simple_cbow import SimpleCBOW
 from common.util import preprocess, create_contexts_target, convert_one_hot
 
 
